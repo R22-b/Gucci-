@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Web Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚀 My Web Game 🎮</h1>
+  <p id="score">Score: 0 | Level: 1</p>
+  <canvas id="gameCanvas" width="800" height="500"></canvas>
+  <button id="restartBtn" style="display:none;">Restart</button>
+
+  <!-- Sound Effects -->
+  <audio id="bgMusic" src="background.mp3" loop></audio>
+  <audio id="hitSound" src="hit.mp3"></audio>
+  <audio id="pointSound" src="point.mp3"></audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
